@@ -15,7 +15,7 @@ def pascal_triangle(n):
         list: A list containing the rows of the Pascal's triangle.
     """
     if n <= 0:
-        return
+        return[]
     Triangle = [[1]]
     for i in range(1, n):
         row = next_row(Triangle[-1])
