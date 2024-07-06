@@ -246,9 +246,7 @@ Understanding these foundational concepts will greatly enhance your ability to t
 | --------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Lists and List Manipulation | Access, modify, iterate, list comprehensions | [Python Lists](https://docs.python.org/3/tutorial/datastructures.html)                                                       |
 | Graph Theory Basics         | Nodes, edges, DFS, BFS                       | [Graph Theory](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs) |
-| Algorithmic Complexity      | Big O notation, time/space complexity        | [Big O Not                                                                                                                   |
-
-ation](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/) |
-| Recursion | Base case, recursive call | [Recursion](https://realpython.com/python-recursion/) |
-| Queue and Stack | FIFO (queue), LIFO (stack) | [Queue and Stack](https://www.geeksforgeeks.org/queue-in-python/) |
-| Set Operations | Unique elements, set operations | [Python Sets](https://docs.python.org/3/tutorial/datastructures.html#sets) |
+| Algorithmic Complexity      | Big O notation, time/space complexity        | [Big O Notation](https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/)                            |
+| Recursion                   | Base case, recursive call                    | [Recursion](https://realpython.com/python-recursion/)                                                                        |
+| Queue and Stack             | FIFO (queue), LIFO (stack)                   | [Queue and Stack](https://www.geeksforgeeks.org/queue-in-python/)                                                            |
+| Set Operations              | Unique elements, set operations              | [Python Sets](https://docs.python.org/3/tutorial/datastructures.html#sets)                                                   |
