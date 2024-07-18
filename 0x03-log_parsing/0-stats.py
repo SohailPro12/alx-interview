@@ -21,7 +21,6 @@ signal.signal(signal.SIGINT, handle_interrupt)
 
 
 for line in sys.stdin:
-    line_count += 1
     match = re.search(pattern, line)
     if match:
         status_code = int(match.group(1))
@@ -30,6 +29,6 @@ for line in sys.stdin:
         total_file_size += file_size
         if line_count % 10 == 0:
             print(f"File size: {total_file_size}")
-            i = 0
         else:
             print(f"{status_code}: {status_counts[status_code]}")
+        line_count += 1
