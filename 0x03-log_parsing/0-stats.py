@@ -13,10 +13,12 @@ line_count = 0
 
 def handle_interrupt(signal, frame):
     print(f"File size: {total_file_size}")
-    sys.exit(0)
+    # Do not exit after Ctrl+C
+    # sys.exit(0)
 
 
 signal.signal(signal.SIGINT, handle_interrupt)
+
 
 for line in sys.stdin:
     line_count += 1
