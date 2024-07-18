@@ -32,4 +32,4 @@ for line in sys.stdin:
             print(f"File size: {total_file_size}")
             i = 0
         else:
-            print(status_code, status_counts[status_code])
+            print(f"{status_code}: {status_counts[status_code]}")
