@@ -10,6 +10,8 @@ def makeChange(coins, total):
     it determine the fewest number of coins needed
     to meet a given total total.
     """
+    if total <= 0:
+        return 0
     dp = [float('inf')] * (total + 1)
     dp[0] = 0
     for coin in coins:
