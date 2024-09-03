@@ -5,6 +5,10 @@ N Queens problem
 
 
 if __name__ == "__main__":
+    """
+    N Queens problem
+    
+    """
     import sys
     n = sys.argv[1]
     if len(sys.argv) != 2:
