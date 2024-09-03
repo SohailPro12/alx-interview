@@ -5,6 +5,9 @@ Prime Game
 
 
 def eratosthenes(n):
+    """
+    Eratosthenes algorithm to get all primes until n
+    """
     primes = [True] * (n + 1)
     p = 2
     while (p * p <= n):
@@ -17,6 +20,9 @@ def eratosthenes(n):
 
 
 def moves_for_each_round(n, primes):
+    """
+    Calculate the number of moves for each round
+    """
     moves = 0
     is_prime = [False] * (n + 1)
     for prime in primes:
@@ -30,6 +36,9 @@ def moves_for_each_round(n, primes):
 
 
 def isWinner(x, nums):
+    """
+    Determine who the winner of each game is
+    """
     if x < 1 or nums is None or len(nums) < 1:
         return None
     max_n = max(nums)
