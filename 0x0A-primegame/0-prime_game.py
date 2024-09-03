@@ -32,11 +32,12 @@ def moves_for_each_round(n, primes):
 def isWinner(x, nums):
     if x < 1 or nums is None or len(nums) < 1:
         return None
+    max_n = max(nums)
+    primes = eratosthenes(max_n)
 
     maria_wins = 0
     ben_wins = 0
     for n in nums:
-        primes = eratosthenes(n)
         moves = moves_for_each_round(n, primes)
         if moves % 2 == 0:
             ben_wins += 1
